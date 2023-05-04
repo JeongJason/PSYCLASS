@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+            
+        }
+        body{}
+        ul, li{
+            list-style:none;
+        }
+        a{
+            text-decoration: none;
+            color: inherit;
+        }
+        
+        header{
+            border:1px solid gray;
+            width:100%;
+            height:300px;
+            display:flex;
+            justify-content:space-around;
+            
+        
+        }
+       
+        header>.logo{
+            border:1px solid gray;
+            width:300px;
+            height:200px;
+            align-self: center;
+            
+        }
+        header>.logo>a{}
+        header>.logo>a>img{
+            border:1px solid gray;
+            max-width: 700px;
+        }
+        header>.wrapper{
+            border:1px solid gray;
+            width:300px;
+            height:200px;
+            align-self: center;  
+        }
+        header>.wrapper>.parent{
+            border:1px solid gray;
+            height:300px;
+            height:100px;
+            display:flex;
+            justify-content:space-around;
+        }
+        header>.wrapper>.parent>li{
+            border: 1px solid gray;
+        }
+        header>.wrapper>.parent>li>:nth-of-type(1){
+            border:1px solid gray;
+        }
+        header>.wrapper>.parent>li>:nth-of-type(2){
+            border:1px solid gray;
+        }
+        header>.wrapper>.parent.child{
+           border:1px solid gray;
+           
+           
+        }
+        header>.wrapper>.parent>.child>a{}
+        header>.wrapper>.parent>.child>.menu{
+            text-align:center;
+        }
+        header>.wrapper>.parent>.child>.menu>li{
+            position: relative;
+            display:none;
+            
+        }
+        header>.wrapper>.parent>li:hover>.menu>li{
+            display:block;
+            position:absolute;
+         
+           
+        
+        }
+        header>.wrapper>.parent>li>.menu:hover li{
+            position:absolute;
+            top:0px;
+            transition: all .7s;
+
+        }
+        header>.wrapper>.parent>.child>.menu>li:nth-of-type(1){
+            position:absolute;
+            margin-top:20px;
+        }
+        header>.wrapper>.parent>.child>.menu>li:nth-of-type(2){
+            position:absolute;
+            margin-top:40px;
+        }
+        header>.wrapper>.parent>.child>.menu>li:nth-of-type(3){
+            position:absolute;
+            margin-top:60px;
+        }
+        header>form{
+            border: 1px solid black;
+            width:300px;
+            height:200px;
+            align-self: center;
+         
+        }
+        header>.login{
+            border:1px solid gray;
+            width:300px;
+            height:200px;
+            display: flex;
+            align-self: center;
+         
+        }
+        header>.login>a{}
+        header>.login>a:nth-of-type(1){
+            border:1px solid black;
+            width:100px;
+            height:40px;
+            text-align: center;
+
+        }
+        header>.login>a:nth-of-type(2){
+            border:1px solid black;
+            width:100px;
+            height:40px;
+            text-align: center;
+        }
+        .search{
+            display: flex;
+            align-items: center;
+        }
+
+        .search input[type="text"] {
+        
+        padding: 10px;
+        border:1px solid black;
+        border-radius: 4px 0 0 4px;
+        }
+
+        .search button[type="submit"] {
+            
+        background-color:blue;
+        border:2px solid black;
+        padding: 17px ;
+        border-radius: 0 4px 4px 0;
+        cursor: pointer;
+        box-sizing: border-box;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"><a href=""><img src="./img/real.png" alt=""></a></div>
+        <nav class="wrapper">
+            <ul class="parent">
+                <li><a href="">적성도검사</a></li>
+                <li><a href="">나의강의</a></li>
+                <li class="child">
+                    <a href="">강의 목록V</a>
+                    <ul class="menu">
+                        <li><a href="">front-end</a></li>
+                        <li><a href="">back-end</a></li>
+                        <li><a href="">full-stack</a></li>  
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <form action="">          
+            <div class="search">
+                <input type="text" placeholder="Search">
+                <button type="submit"></button> 
+            </div>
+        </form>
+        <div class="login">
+            <a href="">회원가입</a>
+            <a href="">로그인</a>
+        </div>
+    </header>
+</body>
+</html>
