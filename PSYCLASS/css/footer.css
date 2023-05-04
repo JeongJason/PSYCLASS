@@ -1,0 +1,72 @@
+footer{
+    height: 600px;
+    /* border-top: 1px solid lightgray; */
+    background-color: darkslategray;
+}
+footer>.foot--top{
+    height: 50px;
+    color: white;
+}
+footer>.foot--top>ul{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: 240px;
+    color: white;
+}
+footer>.foot--top>ul>li{}
+footer>.foot--top>ul>li::after{
+    content: "|";
+    float: right;
+    display: block;
+    color: white;
+  }
+footer>.foot--top>ul>li:last-child::after{
+    content: "";
+  }
+  footer>.foot--top>ul>li>a{
+    padding: 0 20px;
+    /* border: 1px solid blue; */
+    font-size: 20px;
+    color: white;
+  }
+footer>.foot--middle{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid; */
+    height: 300px;
+    padding: 0 50px;
+    color: white;
+}
+footer>.foot--middle>.middle--left{
+    /* border: 1px solid; */
+    padding: 50px;
+    color: white;
+    font-size: 20px;
+}
+footer>.foot--middle>article{
+    /* border: 1px solid; */
+    padding: 50px;
+    color: white;
+    font-size: 20px;
+}
+footer>.foot--middle>.middle--right{
+    /* border: 1px solid; */
+    padding: 50px;
+    color: white;
+    font-size: 20px;
+}
+footer>.foot--bottom{
+    align-content: center;
+    /* border: 1px solid yellow; */
+    height: 200px;
+}
+footer>.foot--bottom>div{
+    /* border: 1px solid red; */
+    padding: 0 500px;
+    text-align: center;
+    color: white;
+}
+footer>.foot--bottom>div>a{
+    /* border: 1px solid; */
+}
+footer>.foot--bottom>div>a>img{}
