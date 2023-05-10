@@ -1,0 +1,143 @@
+header {
+    height: 100px;
+    /* line-height: 90px; */
+    /* border: 1px solid gray; */
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    /* justify-content: space-between; */
+    position: relative;
+    padding: 0 100px;
+    /* border: 1px solid black; */
+    align-items: center;
+    
+}
+
+header>.header--logo {}
+
+header>.navv {
+    width: 500px;
+
+}
+
+header>.navv>.one--depth {
+   
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px;
+    
+}
+header>.navv>.one--depth>li{
+    width: 120px;
+    height: 90px;
+    /* border: 1px solid gray; */
+    text-align: center;
+    position: relative;
+    margin-left: 20px;
+
+}
+
+header>.navv>.one--depth>li>a{
+    display: block;
+    line-height: 90px;
+    text-decoration: none;
+    color: black;
+}
+
+header>.header--logo>img {
+
+    /* border: 1px solid black; */
+    width: 214px;
+    height: 58px;
+    display: flex;
+
+}
+
+header>.navv>.one--depth>li>.two--depth{
+    position: absolute;
+    width: 150px;
+    height: 180px;
+    /* border: 1px solid gray; */
+    display: none;
+    border-radius: 20%;
+    /* align-items: center; */
+    z-index: 20;
+    text-align: center;
+    background-color: rgb(29, 78, 216);
+    opacity: 0.8;
+    padding-left: 23px;
+    right: -10px;
+    top: 65px;
+    padding-top: 10px;
+    
+}
+header>.navv>.one--depth>li>.two--depth>li {
+    align-items: center;
+}
+
+header>.navv>.one--depth>li>.two--depth>li>a{
+    padding-right: 20px;
+    font-size: 16px;
+    line-height: 2;
+    /* border: 1px solid violet; */
+    color: white;
+    display: block;
+    
+}
+header>.navv>.one--depth>li>.two--depth>li:hover a{
+    /* font-weight: bold; */
+    font-size: 18px;
+    opacity: 0.9;
+    /* color: black */
+    
+}
+.one--depth>li:nth-child(3):hover .two--depth{
+    display: block;
+    
+}
+.two--depth>li:hover .two--depth{
+    display: block;
+}
+.search{
+    position: absolute;
+    height: 48px;
+    width: 340px;
+    /* border: 1px solid gray; */
+    background-color: rgb(235, 234, 234);
+    border-radius: 20px;
+    right: 250px;
+    
+}
+.search>input{
+    position: absolute;
+    height: 40px;
+    width: 340px;
+    border: 0;
+    outline: 0;
+    font-size:20px;
+    padding-left: 32px;
+    background-color: rgb(235, 234, 234);;
+    border-radius: 20px;
+    
+
+    
+}
+.search>img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 10px;
+    
+}
+.search>input:focus+img{
+    display: none;
+}
+.log_btn{
+    /* border: 1px solid green; */
+    position: absolute;
+    right: 50px;
+    
+}
