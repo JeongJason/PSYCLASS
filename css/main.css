@@ -3,6 +3,12 @@
   margin-bottom: 30px;
   text-align: center;
 }
+.title--top{
+  width: 500px;
+  /* border: 1px solid; */
+  margin: 0 auto;
+  padding-top: 20px;
+}
 
 input[type="radio"] {
   width: 50px;
@@ -46,19 +52,21 @@ input[type="radio"] {
   font-size: 20px;
   text-align: center;
   line-height: 40px;
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
   font-weight: bold;
 }
 
-.box {
-  border: 1px solid black;
 
-}
 #main-page>span{
   display: inline-block;
   align-items: center; 
 }
 
 .logo{
+  padding-top: 30px;
+  padding-bottom: 30px;
   text-align: center;
+  border-bottom:1px solid lightgray;
+  /* box-shadow: 1px slateg rey; */
+
 }
