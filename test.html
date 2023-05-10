@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f8f8;
+  height: 80px;
+  padding: 0 20px;
+}
+
+.logo img {
+  padding-left: 30px;
+  height: 50px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.user-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.user-buttons a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+form input[type="text"] {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+}
+
+form button[type="submit"] {
+  border: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <img src="logo.png" alt="로고 이미지">
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">메뉴1</a></li>
+            <li><a href="#">메뉴2</a></li>
+            <li><a href="#">메뉴3</a></li>
+          </ul>
+        </nav>
+        <form>
+            <input type="text" placeholder="검색어를 입력하세요.">
+            <button type="submit">검색</button>
+          </form>
+        <div class="user-buttons">
+          <a href="#">회원가입</a>
+          <a href="#">로그인</a>
+        </div>
+      </header>
+      <section></section>
+      <section></section>
+      <footer></footer>
+      
+</body>
+</html>
