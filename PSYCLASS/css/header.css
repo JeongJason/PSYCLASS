@@ -1,92 +1,116 @@
-header{
+header {
     height: 150px;
-    display: flex;
     border-bottom: 1px solid lightgray;
-    justify-content: space-around;
-    padding-top: 35px;
-}
-.left--header{
     display: flex;
-    justify-content: space-around;
+    position: relative;
+    padding: 0 100px;
+    align-items: center;
 }
-.left--header>img{
-    height: 80px;
-    width: 300px;
+
+header>.header--logo {}
+
+header>.navv {
+    width: 500px;
 }
-.left--header>nav{
-    /* border: 1px solid; */
-    height: 100px;
+
+header>.navv>.one--depth {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px;
+}
+header>.navv>.one--depth>li{
+    width: 120px;
+    height: 90px;
+    text-align: center;
+    position: relative;
     margin-left: 20px;
+}
 
-}
-.left--header>nav>.first--depth{
-    display: flex;
-    /* border: 1px solid; */
-    height: 80px;
-    line-height: 80px;
-    font-size: 23px;
-}
-.left--header>nav>.first--depth>li{
-    margin: 0px 15px;
-    position: relative;
-}
-.left--header>nav>.first--depth>li>a{}
-.left--header>nav>.first--depth>li>.second--depth{
-    display: none;
+header>.navv>.one--depth>li>a{
     font-size: 20px;
-    position: absolute;
-    left: -30px;
-    border-radius: 25px;
-}
-.left--header>nav>.first--depth:hover .second--depth{
     display: block;
-    background-color: aliceblue;
-    width: 150px;
-    text-align: center;    
-    pointer-events: auto;
-    opacity: 0.8;
+    line-height: 90px;
+    text-decoration: none;
+    color: black;
 }
 
-.left--header>nav>.first--depth>li>.second--depth>li{}
-.left--header>nav>.first--depth>li>.second--depth>li>a{}
-.right--header{
-    padding-top: 5px;
+header>.header--logo>img {
+    width: 214px;
+    height: 58px;
     display: flex;
 }
-.right--header>form>input{
-    width: 300px;
-    height: 60px;
-    border-radius: 20px;
-    margin-top: 8px;
-    position: absolute;
-}
-.right--header>form{
-    position: relative;
-    /* display: block; */
-    width: 300px;
-    height: 60px;
-}
-.right--header>form>button{
-    position: absolute;
-    left: 82%;
-    top: 25px;
-    border: 0px;
-    background-color: white;
-}
-.right--header>form>button>span{
-    border: 0px;
-}
-.right--header>.login{
-    /* border: 1px solid black; */
-    margin-left: 15px;
-    height: 70px;
-    line-height: 70px;
-    /* display: block; */
-    width: 300px;
-    height: 60px;
-}
-.right--header>.login>button{
-    width: 100px;
-    height: 55px;
 
+header>.navv>.one--depth>li>.two--depth{
+    position: absolute;
+    width: 150px;
+    height: 260px;
+    display: none;
+    border-radius: 30px;
+    z-index: 20;
+    text-align: center;
+    background-color: rgb(29, 78, 216);
+    opacity: 0.8;
+    padding-left: 23px;
+    right: -10px;
+    top: 65px;
+    padding-top: 10px;
+    
+}
+header>.navv>.one--depth>li>.two--depth>li {
+    align-items: center;
+    margin-top: 10px;
+}
+
+header>.navv>.one--depth>li>.two--depth>li>a{
+    padding-right: 20px;
+    font-size: 18px;
+    line-height: 2;
+    color: white;
+    display: block;
+}
+header>.navv>.one--depth>li>.two--depth>li:hover a{
+    font-size: 18px;
+    opacity: 0.9;   
+}
+.one--depth>li:nth-child(3):hover .two--depth{
+    display: block;
+}
+.two--depth>li:hover .two--depth{
+    display: block;
+}
+.search{
+    position: absolute;
+    height: 48px;
+    width: 340px;
+    background-color: rgb(235, 234, 234);
+    border-radius: 20px;
+    right: 250px;
+}
+.search>input{
+    position: absolute;
+    height: 40px;
+    width: 340px;
+    border: 0;
+    outline: 0;
+    font-size:20px;
+    padding-left: 32px;
+    background-color: rgb(235, 234, 234);;
+    border-radius: 20px;
+}
+.search>img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 10px;
+}
+.search>input:focus+img{
+    display: none;
+}
+.log_btn{
+    position: absolute;
+    right: 50px;
 }

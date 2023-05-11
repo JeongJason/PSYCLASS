@@ -1,0 +1,80 @@
+main{
+    margin: auto;
+    border: none;
+}
+.topmain{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: rgb(30,144,255);
+}
+.topmainfirst>div>img{
+    
+    border-radius: 30px 30px 30px 30px;
+    margin: 150px 150px 150px 400px;
+    width: 600px; height: 300px;
+    }
+.topmainsecond{
+    margin-left: 5px;
+}
+.topmainfirst>div{}
+.topmainsecond>ul{
+    
+}
+.topmainsecond>ul>div{
+    display: border;
+    color: white;
+}
+.topmainsecond>ul>div:nth-child(1){
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.topmainsecond>ul>div:nth-child(2){
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.topmainsecond>ul>div:nth-child(3){
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.topmainsecond>ul>div:nth-child(4){
+    font-size: 25px;
+   
+}
+.middlemain>ul{
+    display: flex;
+    justify-content: left;
+    margin: 30px auto 30px auto;
+}
+.middlemain>ul>a{
+    text-decoration: none;
+    color: gray;
+    font-size: 25px;
+}
+.middlemain>ul>a:nth-child(1){
+    margin-left: 450px;
+}
+.middlemain>ul>a:nth-child(2){
+    margin-left: 50px;
+}
+a.test1:hover{
+    text-decoration: underline;
+    color: black;
+}
+a.test2:hover{
+    text-decoration: underline;
+    color: black;
+}
+.bottommain{
+    border-top: 3px solid gray;
+    margin-bottom: 100px;
+}
+.bottommain>ul{
+    margin: 100px auto 350px 450px;
+    font-size: 20px;
+}
+.bottommain>ul>.bottommaintop{
+    font-size: 25px;
+    font-weight: bold;
+}

@@ -1,5 +1,4 @@
 main{
-    border:1px solid black;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -9,13 +8,11 @@ main{
 
 }
 .main-form{
-    /* border:1px solid black; */
    width:600px;
    height:800px;
    display:flex;
    justify-content:center;
    align-items:center;
-   /* background-image: url("https://cdn.pixabay.com/photo/2016/10/12/09/00/woman-1733881__340.jpg"); */
    background-size: contain;
    background-repeat: none;
    background-position: center;
@@ -23,37 +20,23 @@ main{
    filter: blur(0.5px);
 }
 main::before{
-
-   /* position:absolute; */
    z-index: 1;
    top:0; right:0; bottom:0; left:0;
    background-color: rgba(78, 42, 78, 0.197);
-  
-   
 }
 
-
-
-
-/* .members-form{
- 
-   z-index: 5;
-} */
 .members-form h1{
    font-size:50px;
    justify-content: center;
    text-align: center;
    color: rgb(11, 11, 168);
    margin-bottom: 50px;
-
 }
 .input-area{
    width:400px;
    position:relative;
 }
-/* .input-area:nth-of-type(1){
-   margin:0;
-} */
+
 .input-area input{
    width:100%;
    padding: 30px 10px 0px;
@@ -63,8 +46,6 @@ main::before{
    border-bottom: 1px solid black;
    font-size: 20px;
    outline:none;
-   
-  
 }
 .input-area label{
    position:absolute;
@@ -82,13 +63,10 @@ main::before{
    font:8px;
    font-weight: 1000;
    color: rgba(5, 5, 219, 0.676);
-   
-
 }
 .button-area{
    display: flex;
    margin-top: 40px;
- 
 }
 .button-area>button:nth-of-type(1){
    left:1;

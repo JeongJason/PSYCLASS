@@ -21,7 +21,7 @@
     <!-- header -->
     <link rel="stylesheet" href="./css/header.css">
     <!-- main -->
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main page.css">
     <!-- footer -->
     <link rel="stylesheet" href="./css/footer.css">
 
@@ -30,37 +30,39 @@
 
 <body>
     <header>
-        <div class="left--header">
-            <img src="./scr/Logo.png" alt="LOGO">
-            <nav>
-                <ul class="first--depth">
-                    <li><a>적성도 검사</a></li>
-                    <li><a>나의 강의</a></a></li>
-                    <li><a>강의목록∨</a>
-                        <ul class="second--depth">
-                            <li><a>ALL</a></li>
-                            <li><a>웹 개발</a></li>
-                            <li><a>프론트엔드</a></li>
-                            <li><a>백엔드</a></li>
-                            <li><a>풀스택</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
+        <div class="header--logo">
+            <img src="./scr/Logo.png" alt="">
+
         </div>
-        <div class="right--header">
-            <form action="" class="search">
-                <input type="search" name="search">
-                <button type="submit">
-                    <span class="material-symbols-outlined">
-                        search
-                    </span>
-                </button>
-            </form>
-            <div class="login">
-                <button type="button" class="btn btn-primary">회원가입</button>
-                <button type="button" class="btn btn-outline-primary">로그인</button>
-            </div>
+        <nav class="navv">
+            <ul class="one--depth">
+                <li>
+                    <a href="">적성도 검사</a>
+                </li>
+                <li>
+                    <a href="">나의 강의</a>
+                </li>
+                <li>
+                    <a href="">강의목록 ∨</a>
+
+                    <ul class="two--depth">
+                        <li><a href="">ALL</a></li>
+                        <li><a href="">웹개발</a></li>
+                        <li><a href="">프론트엔드</a></li>
+                        <li><a href="">백엔드</a></li>
+                        <li><a href="">풀스택</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="search">
+            <input type="search">
+            <img src="./scr/search_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+        </div>
+
+        <div class="log_btn">
+            <button class="btn btn-primary" type="submit">회원가입</button>
+            <button type="button" class="btn btn-outline-primary">로그인</button>
         </div>
 
     </header>
@@ -149,15 +151,18 @@
                 <br />
                 <div>수강코드등록</div>
             </aside>
+            <aside class="middle--rright">
+                <div>
+                    <a href=""><img class="snsicon" src="./scr/페이스북.png" alt=""></a>
+                    <a href=""><img class="snsicon" src="./scr/트위터.png" alt=""></a>
+                    <a href=""><img class="snsicon" src="./scr/인스타.png" alt=""></a>
+                    <a href=""><img class="snsicon" src="./scr/in.png" alt=""></a>
+                    <a href=""><img class="snsicon" src="./scr/youtu.png" alt=""></a>
+                </div>
+            </aside>
         </div>
         <article class="foot--bottom">
-            <div>
-                <a href=""><img src="./scr/icons8-페이스-북-256.png" alt=""></a>
-                <a href=""><img src="./scr/icons8-twitter-제곱-90.png" alt=""></a>
-                <a href=""><img src="./scr/icons8-인스-타-그램-256.png" alt=""></a>
-                <a href=""><img src="./scr/icons8-링크드-인-150.png" alt=""></a>
-                <a href=""><img src="./scr/icons8-유튜브-재생-100.png" alt=""></a>
-            </div>
+
             <div>Copyright ⓒpsyclass. ALL RIGHTS RESERVED</div>
         </article>
     </footer>
