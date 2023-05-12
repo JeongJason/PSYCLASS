@@ -40,7 +40,6 @@ section{
     width: 180px; height: 490px;
     position:sticky;
     left: 50px; top: 200px; 
-    z-index: -1;
     border-radius: 30px;
     padding-top: 10px;
 

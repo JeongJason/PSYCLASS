@@ -39,7 +39,7 @@ input[type="radio"] {
   cursor: pointer;
 }
 
-#main-page {
+.main-page {
   margin-top: 10px;
   font-size: 20px;
   font-weight: bold;
@@ -54,7 +54,7 @@ input[type="radio"] {
   font-weight: bold;
 }
 
-#main-page>span {
+.main-page>span {
   display: inline-block;
   align-items: center;
   margin: 0 50px;
@@ -62,8 +62,7 @@ input[type="radio"] {
 }
 
 .logo {
-  padding-top: 30px;
+  margin-top: 100px;
   padding-bottom: 30px;
   text-align: center;
-  border-bottom: 1px solid lightgray;
 }

@@ -21,41 +21,45 @@ main{
 .topmainsecond>ul{
     
 }
-.topmainsecond>ul>div{
-    display: border;
+.topmainsecond>ul>li{
     color: white;
 }
-.topmainsecond>ul>div:nth-child(1){
+.topmainsecond>ul>li:nth-child(1){
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 20px;
 }
-.topmainsecond>ul>div:nth-child(2){
+.topmainsecond>ul>li:nth-child(2){
     font-size: 30px;
     margin-bottom: 20px;
 }
-.topmainsecond>ul>div:nth-child(3){
+.topmainsecond>ul>li:nth-child(3){
     font-size: 25px;
     margin-bottom: 20px;
 }
-.topmainsecond>ul>div:nth-child(4){
+.topmainsecond>ul>li:nth-child(4){
     font-size: 25px;
    
 }
 .middlemain>ul{
     display: flex;
     justify-content: left;
-    margin: 30px auto 30px auto;
+    margin: 20px ;
 }
-.middlemain>ul>a{
+.middlemain>ul>li:nth-child(1){
+    margin-left: 425px;
+}
+.middlemain>ul>li:nth-child(2){
+    margin-left: 50px;
+}
+
+.middlemain>ul>li>a{
     text-decoration: none;
     color: gray;
     font-size: 25px;
 }
-.middlemain>ul>a:nth-child(1){
-    margin-left: 450px;
-}
-.middlemain>ul>a:nth-child(2){
+.middlemain>ul>li>a:nth-child(1){}
+.middlemain>ul>li>a:nth-child(2){
     margin-left: 50px;
 }
 a.test1:hover{
@@ -77,4 +81,7 @@ a.test2:hover{
 .bottommain>ul>.bottommaintop{
     font-size: 25px;
     font-weight: bold;
+}
+.bottommain>ul>li{
+    margin-top: 30px;
 }

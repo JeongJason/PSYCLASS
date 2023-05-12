@@ -21,11 +21,9 @@
     <!-- header -->
     <link rel="stylesheet" href="./css/header.css">
     <!-- main -->
-    <link rel="stylesheet" href="./css/sign up body.css">
+    <link rel="stylesheet" href="./css/psytest_page.css">
     <!-- footer -->
     <link rel="stylesheet" href="./css/footer.css">
-
-    </style>
 </head>
 
 <body>
@@ -67,44 +65,82 @@
 
     </header>
     <main>
-        <div class="main-form">
-            <section class="members-form">
-                <div><img src="./scr/Logo.png" alt=""></div>
-                <br />
-                <br />
-                <h1><b>SIGN-UP</b></h1>
-                <form action="">
-                    <div class="input-area">
-                        <input type="email" id="email" autocomplete="off" required>
-                        <label for="email">USEREMAIL</label>
-                    </div>
-                    <div class="input-area">
-                        <input type="text" id="name" autocomplete="off" required>
-                        <label for="name">USERNAME</label>
-                    </div>
-                    <div class="input-area">
-                        <input type="text" id="address" autocomplete="off" required>
-                        <label for="address">USERADDRESS</label>
-                    </div>
-                    <div class="input-area">
-                        <input type="password" id="pwd" autocomplete="off" required>
-                        <label for="pwd">USERPASSWORD</label>
-                    </div>
-                    <div class="input-area">
-                        <input type="password" id="pwd-check" autocomplete="off" required>
-                        <label for="pwd-check">USERPASSWORD CHECK</label>
-                    </div>
-                    <div class="button-area">
-                        <button type="reset"><em>REWRITE</em></button>
-                        <button type="submit"><em>SIGN-UP</em></button>
-                    </div>
-                </form>
-                <div class="caption">
-                    <a href="">Go LogIn-></a>
-                </div>
-            </section>
+        <div class="logo">
+            <a href=""> <img src="./scr/Logo.png" alt=""></a>
         </div>
-
+        <div class="box">
+            <br />
+            <br />
+            <br />
+            <div class="title">
+                <div class="title--top">
+                    <h2><b>강의적성검사</b></h2>
+                </div>
+            </div>
+            <br />
+            <br />
+            <br />
+            <div class="main-page">
+                <div>1. 나는 활동적인 것을 좋아한다.</div>
+                <span>동의</span>
+                <input type="radio" name="answer" value="strongly-agree" class="r1">
+                <input type="radio" name="answer" value="agree" class="r2"> 
+                <input type="radio" name="answer" value="neutral" class="r3"> 
+                <input type="radio" name="answer" value="disagree" class="r4"> 
+                <input type="radio" name="answer" value="strongly-disagree" class="r5">
+                <span>비동의</span>
+            </div>
+            <div class="main-page">
+                <div>2.나는 수업을 들을 때 이론수업이 더 좋아한다.</div>
+                <span>동의</span>
+                <input type="radio" name="answer2" value="strongly-agree" class="r1">
+                <input type="radio" name="answer2" value="agree" class="r2"> 
+                <input type="radio" name="answer2" value="neutral" class="r3"> 
+                <input type="radio" name="answer2" value="disagree" class="r4"> 
+                <input type="radio" name="answer2" value="strongly-disagree" class="r5">
+                <span>비동의</span>
+            </div>
+            <div class="main-page">
+                <div>3. 나는 다양한 관심사를 탐구하는데 시간을 할애한다.</div>
+                <span>동의</span>
+                <input type="radio" name="answer3" value="strongly-agree" class="r1"> 
+                <input type="radio" name="answer3" value="agree" class="r2"> 
+                <input type="radio" name="answer3" value="neutral" class="r3">
+                <input type="radio" name="answer3" value="disagree" class="r4">
+                <input type="radio" name="answer3" value="strongly-disagree" class="r5"> 
+                <span>비동의</span>
+            </div>
+            <div class="main-page">
+                <div class="main-page">
+                    <div>4. 일이 잘못될 때를 대비해 여러 대비책을 세우는 편이다.</div>
+                    <span>동의</span>
+                    <input type="radio" name="answer4" value="strongly-agree" class="r1"> 
+                    <input type="radio" name="answer4" value="agree" class="r2"> 
+                    <input type="radio" name="answer4" value="neutral" class="r3"> 
+                    <input type="radio" name="answer4" value="disagree" class="r4"> 
+                    <input type="radio" name="answer4" value="strongly-disagree" class="r5">
+                    <span>비동의</span>
+                </div>
+            </div>
+            <div class="main-page">
+                <div>5. 압박감이 심한 환경에서도 평정심을 유지하는 편이다.</div>
+                <span class="agree">동의</span>
+                <input type="radio" name="answer5" value="strongly-agree" class="r1">
+                <input type="radio" name="answer5" value="agree" class="r2"> 
+                <input type="radio" name="answer5" value="neutral" class="r3"> 
+                <input type="radio" name="answer5" value="disagree" class="r4"> 
+                <input type="radio" name="answer5" value="strongly-disagree" class="r5"> 
+                <span class="agree">비동의</span>
+            </div>
+            <br />
+            <br />
+            <br />
+            <div class="btn--primary">
+                <a href="" class="btn btn-primary" style="border-radius: 20px;">NEXT>></a> &nbsp;
+            </div>
+            <br />
+            <br />
+        </div>
     </main>
     <footer>
         <article class="foot--top">
@@ -147,7 +183,6 @@
             </aside>
         </div>
         <article class="foot--bottom">
-
             <div>Copyright ⓒpsyclass. ALL RIGHTS RESERVED</div>
         </article>
     </footer>
